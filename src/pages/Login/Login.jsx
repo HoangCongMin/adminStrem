@@ -2,7 +2,8 @@ import "./login.css"
 
 const Login = () => {
   return (
-          <form action='' method="post" >
+          <div className="container">
+            <form action='' method="post" >
               <div className="box">
                 <h1 className="title-box">sign-in</h1>
               <div className="card">
@@ -18,6 +19,7 @@ const Login = () => {
               </div>
               </div>
           </form>
+          </div>
          )
 }
 
