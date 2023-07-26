@@ -1,0 +1,45 @@
+form{
+    width: 100vw;
+}
+.title-box{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: aquamarine;
+}
+.box{
+    width: 500px;
+    margin: auto;
+    border: 1px solid aquamarine;
+    padding: 30px;
+    box-shadow: 1px 0px 7px black;
+    margin-top: 100px;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    
+}
+.card{
+    margin: 30px 0;
+    }
+.card-login{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+button{
+    color: #fff;
+    background-color: aquamarine!important;
+    text-transform:uppercase ;
+    font-size: 18px;
+}
+button:hover{
+    border: 1px solid rgb(36, 169, 125)!important
+}

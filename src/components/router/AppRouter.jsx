@@ -8,9 +8,9 @@ const AppRouter = () => {
     <BrowserRouter basename='admin'>
       <Routes>
         {/* public routes */}
-        <Route path='login' element={Login} />
+        <Route path='login' element={<Login />} />
         {/* private routes */}
-        <Route path='/' element={Home} />
+        <Route path='/' element={<Home />} />
         {/* 404 */}
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
