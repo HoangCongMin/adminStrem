@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ebebeb;
+}
+.logo{
+    width: 10%;
+    text-align: center;
+    margin-top: 15px;
+}
+.search{
+    width: 60%;
+    display: flex;
+    margin-top: 20px;
+}
+.icon-search{
+    margin: 15px 10px;
+    position:absolute;
+}
+.box-user{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.inp-search{
+    width: 70%;
+    height: 50px;
+    margin-top: 2px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: none;
+    background-color: #eceef1;
+}
+.inp-search:focus{
+    box-shadow: 1px 0px 3px 0px #585454;
+    outline: none;
+}
+.notify{
+    width: 50px;
+    height: 40px;
+    background-color: #ebebeb;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.user{
+    width: 50px;
+    height: 40px;
+    background-color: #ebebeb;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
