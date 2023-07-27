@@ -8,6 +8,15 @@
     z-index: 9;
     transition: all .50s ease;
 }
-.sidebar{
- 
+.user{
+    display: flex;
+    color: #fff;
+}
+.product{
+    display: flex;
+    color: #fff;
+}
+.logout{
+    display: flex;
+    color: #fff;
 }

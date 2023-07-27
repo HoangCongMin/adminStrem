@@ -1,0 +1,31 @@
+.box-sidebar{
+    padding: 0 30px;
+}
+.box-sidebar a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    border: 1px solid #a5a2a2;
+    margin: 40px 0;
+    padding: 15px 0;
+    border-radius: 10px;
+    border-radius:30px 20px 10px 40px ;
+}
+.box-sidebar a:hover{
+    background: #ffffff;
+}
+
+.sidebar-item{
+    display: inline-flex;
+    margin: 0 10px;
+    border: 1px solid #adabab;
+    border-radius:10px 20px 30px 40px ;
+    padding: 5px;
+}
+.box-sidebar a span{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    margin-top: 10px;
+}

@@ -1,4 +1,5 @@
 import "./header.css"
+import avatar from "../../assets/img/icon.png"
 const Header = () => {
   return (
     <div className="header">
@@ -19,7 +20,7 @@ const Header = () => {
         </div>
 
         <div className="user">
-          <a href=""></a>
+          <a href=""><img src={avatar} alt="" /></a>
         </div>
       </div>
 
