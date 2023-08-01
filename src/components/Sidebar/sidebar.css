@@ -2,11 +2,18 @@
     width: 20%;
     position: fixed;
     left: 0;
-    top: 100px;
-    height: 100%;
-    background: rgb(237 237 237);
+    top: 101px;
+    height: 90%;
+    background: #222A37;
     z-index: 9;
     transition: all .50s ease;
+    border-right: 1px solid #fff;
+}
+.item-sidebar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .user{
     display: flex;

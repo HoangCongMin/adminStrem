@@ -1,0 +1,49 @@
+.content{
+    width: 100%;
+}
+.content table{
+    width: 100%;
+}
+.content table tr{
+    border-bottom: 1px solid #6e6e6e;
+}
+.content table th{
+    width: 15%;
+    padding:15px 0;
+}
+
+.content table tr td{
+    text-align: center;
+    padding:15px 0;
+}
+.content table tr td a{
+    padding: 5px;
+}
+.plus{
+    text-align: right;
+    padding: 30px 100px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
