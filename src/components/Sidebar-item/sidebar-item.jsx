@@ -1,3 +1,4 @@
+import Dashboard from "./Dashboard"
 import "./sidebar-item.css"
 
 const SidebarItem = ({item}) => {
@@ -13,9 +14,10 @@ const SidebarItem = ({item}) => {
                         <div  className="sidebar-item"><box-icon color="grey" size="30px" type={typeIcon} name={nameIcon}></box-icon></div>
                         <span>{name}</span>
                     </a>
+                    
                 </div>
                 
-        </>
+            </>
             
         )
     )}
@@ -29,7 +31,9 @@ const SidebarItem = ({item}) => {
     </a>
     </div>
     </>
+    
   )
+  
 }
 
 export default SidebarItem

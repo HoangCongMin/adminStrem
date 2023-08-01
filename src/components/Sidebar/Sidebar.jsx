@@ -1,18 +1,17 @@
-import "./sidebar.css"
-import SidebarItem from "../Sidebar-item/sidebar-item"
+import './sidebar.css';
+import SidebarItem from '../Sidebar-item/sidebar-item';
 const Sidebar = () => {
-    const item = [
-        {id:1,name:"Dashboard",typeIcon:"solid",nameIcon:"dashboard"},
-        {id:2,name:"user",typeIcon:"solid",nameIcon:"user"},
-        {id:3,name:"product",typeIcon:"logo",nameIcon:"product-hunt"},
-    ]
+  const item = [
+    { id: 1, name: 'Dashboard', typeIcon: 'solid', nameIcon: 'dashboard' },
+    { id: 2, name: 'user', typeIcon: 'solid', nameIcon: 'user' },
+    { id: 3, name: 'product', typeIcon: 'logo', nameIcon: 'product-hunt' },
+  ];
   return (
-    
     <div className="sidebar">
-        <div className="item-sidebar">
-            <SidebarItem item={item}/>
-           
-            {/* <div className="pages">
+      <div className="item-sidebar">
+        <SidebarItem item={item} />
+
+        {/* <div className="pages">
                 <div><box-icon type='solid' name='dashboard'></box-icon></div>
                 <span>Dashboard</span>
             </div>
@@ -34,10 +33,9 @@ const Sidebar = () => {
                 </div>
                 logout
             </div> */}
-
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

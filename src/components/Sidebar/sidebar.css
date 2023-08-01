@@ -7,7 +7,7 @@
     background: #222A37;
     z-index: 9;
     transition: all .50s ease;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #5e5e5e;
 }
 .item-sidebar{
     height: 100%;

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-      <box-icon name='star' size="70px"></box-icon>
+      <box-icon animation="spin" color="grey" name='star' size="70px"></box-icon>
       </div> 
 
       <div className="search">
