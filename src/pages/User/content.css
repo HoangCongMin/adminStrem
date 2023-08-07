@@ -52,3 +52,7 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+  .box-tick{
+    width: auto;
+    height: auto;
+  }

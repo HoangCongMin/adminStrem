@@ -1,4 +1,4 @@
-import Dashboard from "./Dashboard"
+
 import "./sidebar-item.css"
 
 const SidebarItem = ({item}) => {

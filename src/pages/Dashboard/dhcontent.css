@@ -1,0 +1,164 @@
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+}
+.upload{
+    margin: 50px;
+}
+.upload a{
+    display: flex;
+    border: 1px solid #1C98F8;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#1C98F8 ;
+    font-weight:500;
+    border-radius: 5px;
+   
+}
+.upload-vd{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.btn-search{
+    width: 35%;
+    margin-top: 25px;
+}
+.btn-search a{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333;
+    background-color: #fff;
+    text-decoration: none;
+    padding-left:10px;
+    height: 65px;
+    line-height: 0.5;
+    border-radius: 5px;
+}   
+
+.name-btn-search p:first-child{
+    font-size: 15px;
+    color: #767676;
+}
+.name-btn-search p:last-child{
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+.icon-btn-search{
+    margin-top: 27px;
+    margin-right: 25px;
+}
+.search-inp {
+    margin: 10px;
+    width: 47%;
+}
+.search-inp input{
+    padding: 16px 50px;
+    height: 29px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 18px;
+}
+.box-quantity{
+    margin: 55px;
+}
+.box-quantity a{
+    text-decoration: none;
+    border: 1px solid #bababa;
+    color: #b1b1b1;
+    padding: 3px 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.video-tb{
+    width: 100%;
+}
+.video-tb table{
+    width: 93%;
+    font-size: 18px;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-left: 53px;
+}
+.bgr-video{
+    background-color: #222A37;
+    color: #fff;
+
+    
+}
+
+.fx-bgr-video{
+    border: 1px solid #363636;
+}
+.bgr-video th{
+    padding: 10px;
+    
+}
+.name-vd{
+    width: 50%;
+}
+.us-vd{
+    width: 10%;
+    text-align: start;
+}
+.date-vd{
+    width: 15%;
+    text-align: start;
+}
+.watch-vd{
+    width: 25%;
+    text-align: start;
+    
+}
+.fix-video{
+    display: flex;
+}
+.fix-video video{
+    width: 30%;
+    margin: 20px;
+}
+.content-vd{
+    margin: auto 0;
+    padding-left: 100px;
+    color: #333;
+}
+.sz-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.sz-btn a{
+    background-color: #1976D5;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.sz-btn a div{
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
